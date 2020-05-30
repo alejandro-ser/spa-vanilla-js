@@ -18,7 +18,7 @@ Plugins uasados durante el desarrollo para compilar el codigo:
 
 ## Demo
 
-### Ver pagina -> [https://alejandro-ser.github.io/spa-vanilla-js#/](https://alejandro-ser.github.io/spa-vanilla-js#/)
+### Ver pagina -> [https://alejandro-ser.github.io/spa-vanilla-js/dist/index.html#/](https://alejandro-ser.github.io/spa-vanilla-js/dist/index.html#/)
 
 ![products](./src/img/spa_products.png)  
 ![products](./src/img/spa_posts.png)
