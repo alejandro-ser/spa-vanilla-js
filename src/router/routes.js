@@ -19,9 +19,9 @@ const activeLink = (page) => {
 const router = async (route) => {
     content.innerHTML = '';
     switch(route) {
-        case '#/': {
-            return content.appendChild(pages.home());
-        }
+        case '#/':
+            activeLink('')
+            return content.appendChild(pages.home())
         case '#/products':
             activeLink('products')
             return content.appendChild(await pages.products())
@@ -29,6 +29,7 @@ const router = async (route) => {
             activeLink('posts')
             return content.appendChild(await pages.posts())
         default:
+            activeLink('')
             return content.appendChild(pages.notFound())
     }
 }
