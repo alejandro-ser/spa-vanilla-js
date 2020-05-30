@@ -1,7 +1,7 @@
 import view from '../views/products.html'
 
 const getProducts = async () => {
-    const response = await fetch('http://jsonplaceholder.typicode.com/comments');
+    const response = await fetch('https://jsonplaceholder.typicode.com/comments');
     return await response.json();
 }
 
